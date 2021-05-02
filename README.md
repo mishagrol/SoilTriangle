@@ -32,4 +32,4 @@ stp.show('triangleplot_gaudy') # is also saved to file of <argument> name
 
 ## Results
 
-![plot](./triangleplot_general.png)
+![plot](./triangleplot_subtle.png)
