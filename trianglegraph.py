@@ -199,10 +199,10 @@ class SoilTrianglePlot:
         if (tags != ''):
             tags = tags.lower()
             for (x, y, tag) in zip(*[xs, ys, soilrec[tags]]):
-                print (x),
-                print (y),
-                print (tag)
-                p.text(x + 1, y + 1, tag, fontsize=12)
+                # print (x),
+                # print (y),
+                # print (tag)
+                p.text(x + 1, y + 1, tag, fontsize=7)
         fh.close()
 
     def __init__(self, stitle = ''):
